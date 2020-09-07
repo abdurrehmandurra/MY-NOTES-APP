@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+section#section {
+	margin-top: 2cm;
+}
+.container {
+	/* padding: 0.5cm 0; */
+	border: 2px solid black;
+}
+h1 {
+	padding: 0.5cm 0;
+	font-weight: bolder;
+	font-size: 80px;
+	text-align: center;
+	color: black;
+	font-family: "Fredoka One", cursive;
+}
+div#card {
+	border-color: lightgray;
+	border-radius: 10px;
+	box-shadow: 0 0 4px rgb(160, 158, 158);
+	width: 50%;
+	margin: auto;
+	padding: 10px;
+}
+div#card-header-body {
+	padding: 10px;
+	border-radius: 10px;
+}
+.card:hover {
+	box-shadow: 0 0 5px grey;
+}
+textarea {
+	resize: none;
+}
+textarea::placeholder,
+textarea.form-control {
+	font-size: 18px;
+}
+input.form-control,
+input.form-control::placeholder {
+	font-weight: 500;
+	font-size: 20px;
+}
+.form-control {
+	padding: 5px;
+	border: none;
+	width: 100%;
+	border-radius: 0px;
+}
+.form-control:focus {
+	border: none;
+	outline: 0;
+	box-shadow: 0 0 0 0;
+}
+
+.fa-plus {
+	background-color: rgba(0, 132, 255, 0.753);
+	padding: 10px;
+	border-radius: 50%;
+	color: white;
+	float: right;
+	cursor: pointer;
+}
+
+@media (min-width: 300px) {
+	section#section {
+		margin-top: 1cm;
+		border: 1px solid red;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	div#card {
+		border-color: lightgray;
+		border-radius: 10px;
+		box-shadow: 0 0 4px rgb(160, 158, 158);
+		width: 90%;
+		margin: auto;
+		padding: 10px;
+	}
+	div#card-header-body {
+		padding: 10px;
+		border-radius: 10px;
+	}
+	small {
+		font-size: 14px;
+	}
+	.form-control {
+		width: 100%;
+	}
+	.card {
+		width: 90%;
+		margin: 20px auto 20px auto;
+		display: block;
+	}
+	#edit-card {
+		width: 250px;
+	}
+}
+
+@media (min-width: 500px) {
+	#edit-card {
+		width: 400px;
+	}
+}
+@media (min-width: 700px) {
+	#edit-card {
+		width: 500px;
+	}
+}
+
+@media (min-width: 900px) {
+	div#card {
+		width: 70%;
+	}
+	#edit-card {
+		width: 600px;
+	}
+	.card {
+		width: 47%;
+		margin: 10px;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 1100px) {
+	div#card {
+		width: 50%;
+	}
+	#edit-card {
+		width: 700px;
+	}
+	.card {
+		width: 31%;
+		margin: 10px;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 1100px) {
+	#edit-card {
+		width: 700px;
+	}
+	.card {
+		width: 24%;
+		margin: 10px 5px;
+	}
+}
