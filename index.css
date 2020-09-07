@@ -3,10 +3,7 @@
 section#section {
 	margin-top: 2cm;
 }
-.container {
-	/* padding: 0.5cm 0; */
-	border: 2px solid black;
-}
+
 h1 {
 	padding: 0.5cm 0;
 	font-weight: bolder;
@@ -66,7 +63,6 @@ input.form-control::placeholder {
 @media (min-width: 300px) {
 	section#section {
 		margin-top: 1cm;
-		border: 1px solid red;
 	}
 	h1 {
 		font-size: 50px;
