@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+section#section {
+	margin-top: 1cm;
+}
+h1 {
+	padding: 0.5cm 0;
+	font-weight: bolder;
+	font-size: 80px;
+	text-align: center;
+	color: black;
+	font-family: "Fredoka One", cursive;
+}
+.card {
+	border-radius: 5px;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+div#card {
+	border-color: lightgray;
+	box-shadow: 0 0 4px rgb(160, 158, 158);
+	width: 50%;
+	margin: auto;
+	border-radius: 5px;
+	padding: 10px;
+}
+div#card-header-body {
+	padding: 10px;
+}
+.card:hover {
+	box-shadow: 0 0 5px grey;
+}
+textarea {
+	resize: none;
+}
+textarea::placeholder,
+textarea.form-control {
+	font-size: 18px;
+}
+input.form-control,
+input.form-control::placeholder {
+	font-weight: 500;
+	font-size: 20px;
+}
+.form-control {
+	padding: 5px;
+	border: none;
+	width: 100%;
+	border-radius: 0px;
+}
+.form-control:focus {
+	border: none;
+	outline: 0;
+	box-shadow: none;
+}
+button.fa-plus {
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	background-color: rgba(0, 132, 255, 0.753);
+	padding: 15px;
+	color: white;
+	float: right;
+	cursor: pointer;
+}
+button.fa-plus:hover {
+	background-color: rgba(0, 132, 255);
+}
+#noteCards {
+	border: 1px solid rgb(158, 156, 156);
+	display: inline-block;
+}
+.cardTitle {
+	text-transform: capitalize;
+	margin: 0;
+	padding: 5px;
+}
+.cardNote {
+	padding: 5px;
+	font-size: 20px;
+	margin: 0;
+}
+#noteCards:hover {
+	cursor: pointer;
+}
+.noteCardBtns {
+	display: flex;
+	justify-content: flex-end;
+}
+a.fa-pen,
+button.fa-trash {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 50%;
+	background-color: white;
+	text-decoration: none;
+}
+.fa-trash,
+.fa-pen {
+	color: white;
+}
+.fa-trash1 {
+	color: lightgray;
+}
+.fa-pen1 {
+	color: lightgray;
+}
+button.fa-trash:hover {
+	color: rgba(255, 0, 0);
+}
+a.fa-pen:hover {
+	color: rgba(0, 128, 0);
+}
+
+/* ====================================== */
+@media (min-width: 300px) {
+	h1 {
+		font-size: 50px;
+	}
+	div#card {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	div#card {
+		width: 400px;
+	}
+}
+
+@media (min-width: 1024px) {
+	div#card {
+		width: 50%;
+	}
+}
